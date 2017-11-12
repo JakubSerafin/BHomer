@@ -1,0 +1,18 @@
+{
+  "name": "homerpage",
+  "version": "1.0.0",
+  "description": "keep you home organized",
+  "main": "index.js",
+  "scripts": {
+    "test": "tst",
+    "dev-build": "webpack -d --display-modules --progress",
+    "dist-build": "webpack -p --display-modules --progress"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.3.0",
+    "source-map-loader": "^0.2.3",
+    "typescript": "^2.6.1"
+  }
+}

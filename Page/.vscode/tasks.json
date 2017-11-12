@@ -1,0 +1,30 @@
+
+{
+	"version": "0.1.0",
+	"command": "webpack",
+	"isShellCommand": true,
+	"args": [
+		"--display-modules",
+        "--progress",
+        "${workspaceRoot}/Page"
+	],
+	"echoCommand": true,
+	"tasks": [
+		{
+			"args": [
+				"-d" 
+			],
+			"suppressTaskName": true,
+			"taskName": "webpack dev",
+			"isBuildCommand": true
+		},
+		{
+			"args": [
+				"-p"
+			],
+			"suppressTaskName": true,
+			"taskName": "webpack dist",
+			"isBuildCommand": false
+		}
+	]
+}
